@@ -1,0 +1,41 @@
+PODS:
+  - device_info (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.1):
+    - Flutter
+    - xservice_kit
+  - package_info (0.0.1):
+    - Flutter
+  - xservice_kit (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_boost (from `.symlinks/plugins/flutter_boost/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - xservice_kit (from `.symlinks/plugins/xservice_kit/ios`)
+
+EXTERNAL SOURCES:
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_boost:
+    :path: ".symlinks/plugins/flutter_boost/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  xservice_kit:
+    :path: ".symlinks/plugins/xservice_kit/ios"
+
+SPEC CHECKSUMS:
+  device_info: 3ebad48f726348f69abd802f3334a8d1ed795fbd
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_boost: 3b4ccaa8b2fcaef418e0d2576403dcbae3d048bf
+  package_info: 78cabb3c322943c55d39676f4a5bfc748c01d055
+  xservice_kit: a2f1b35addc126fce8687aeb183ab0c1ada5b7f3
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.6.1
