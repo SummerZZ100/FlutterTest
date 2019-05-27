@@ -12,7 +12,8 @@ build/
 .packages
 .flutter-plugins
 
-
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
 
 
 
