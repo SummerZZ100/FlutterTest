@@ -88,7 +88,7 @@ class _BusinessState extends State<Business> {
   void headerviewClick(BuildContext context,int index) async{
 
 
-  FlutterBoost.singleton.openPage('BSecond', {'present':false, 'index':index}, animated: true);
+  FlutterBoost.singleton.openPage('BSecond' , {'present':false, 'index':index}, animated: true);
 
 
 

@@ -55,7 +55,9 @@ class _StaffAppState extends State<StaffApp> {
     return JSJMaterialApp(
 
         theme: new ThemeData(
-          platform: TargetPlatform.iOS,
+          platform: TargetPlatform.android,
+          accentColor: Colors.orange,
+          primaryColor: Colors.green,
         ),
 
         builder: FlutterBoost.init(),
