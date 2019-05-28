@@ -38,7 +38,7 @@
 
 - (void)initDataSource
 {
-    _dataSource = [[NSMutableArray alloc] initWithObjects:@"tab",@"items",@"item_detail",@"counter",@"VipBindingState", nil];
+    _dataSource = [[NSMutableArray alloc] initWithObjects:@"tab",@"items",@"item_detail",@"counter",@"VipBindingState","test_list", nil];
 }
 
 - (void)initMySubViews
