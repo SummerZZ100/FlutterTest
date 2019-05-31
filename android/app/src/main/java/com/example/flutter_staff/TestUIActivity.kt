@@ -5,7 +5,8 @@ import io.flutter.plugin.common.PluginRegistry
 import io.flutter.plugins.GeneratedPluginRegistrant
 import java.util.*
 
-class HomePageActivity : BoostFlutterActivity() {
+class TestUIActivity : BoostFlutterActivity(){
+
     override fun getContainerParams(): MutableMap<Any?, Any?> {
         val params = HashMap<Any?, Any?>()
         params["aaa"] = "bbb"
@@ -17,6 +18,7 @@ class HomePageActivity : BoostFlutterActivity() {
     }
 
     override fun getContainerName(): String {
-        return "test_list"
+        return "test_ui"
     }
+
 }

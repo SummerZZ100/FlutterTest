@@ -7,6 +7,8 @@ PODS:
     - xservice_kit
   - package_info (0.0.1):
     - Flutter
+  - url_launcher (0.0.1):
+    - Flutter
   - xservice_kit (0.0.1):
     - Flutter
 
@@ -15,6 +17,7 @@ DEPENDENCIES:
   - Flutter (from `.symlinks/flutter/ios`)
   - flutter_boost (from `.symlinks/plugins/flutter_boost/ios`)
   - package_info (from `.symlinks/plugins/package_info/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
   - xservice_kit (from `.symlinks/plugins/xservice_kit/ios`)
 
 EXTERNAL SOURCES:
@@ -26,6 +29,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_boost/ios"
   package_info:
     :path: ".symlinks/plugins/package_info/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
   xservice_kit:
     :path: ".symlinks/plugins/xservice_kit/ios"
 
@@ -34,6 +39,7 @@ SPEC CHECKSUMS:
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
   flutter_boost: 3b4ccaa8b2fcaef418e0d2576403dcbae3d048bf
   package_info: 78cabb3c322943c55d39676f4a5bfc748c01d055
+  url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
   xservice_kit: a2f1b35addc126fce8687aeb183ab0c1ada5b7f3
 
 PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09

@@ -38,7 +38,7 @@
 
 - (void)initDataSource
 {
-    _dataSource = [[NSMutableArray alloc] initWithObjects:@"tab",@"items",@"item_detail",@"counter",@"VipBindingState","test_list", nil];
+    _dataSource = [[NSMutableArray alloc] initWithObjects:@"tab",@"items",@"item_detail",@"counter",@"VipBindingState",@"test_list", nil];
 }
 
 - (void)initMySubViews
@@ -74,6 +74,9 @@
     }
     else if ([titleStr isEqualToString:@"counter"]){
         [self goFlutter:@"counter"];
+    }
+    else if([titleStr isEqualToString:@"test_list"]){
+        [self goFlutter:@"test_list"];
     }
     
 

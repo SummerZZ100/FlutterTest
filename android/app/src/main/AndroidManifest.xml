@@ -32,5 +32,6 @@
         <activity android:name=".FlutterPageActivity" />
         <activity android:name=".HomePageActivity" />
         <activity android:name=".VIPManagerActivity" />
+        <activity android:name=".TestUIActivity" />
     </application>
 </manifest>

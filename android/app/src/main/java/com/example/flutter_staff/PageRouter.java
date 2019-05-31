@@ -8,6 +8,7 @@ public class PageRouter {
     public static final String FLUTTER_PAGE_URL = "sample://flutterPage";
     public static final String FLUTTER_HomePage_url = "sample://HomePage";
     public static final String FLUTTER_VIPManager_URL = "sample://VIPManager";
+    public  static  final String FLUTTER_TestUI_URL = "test_ui";
 
     public static boolean openPageByUrl(Context context, String url) {
         return openPageByUrl(context, url, 0);
@@ -24,8 +25,14 @@ public class PageRouter {
             } else if (url.startsWith(FLUTTER_VIPManager_URL)) {
                 context.startActivity(new Intent(context, VIPManagerActivity.class));
                 return true;
-            } else {
-                return false;
+            }
+            else if (url.startsWith(FLUTTER_TestUI_URL)){
+                context.startActivity(new Intent(context,TestUIActivity.class));
+                return true;
+            }
+            else {
+                context.startActivity(new Intent(context,TestUIActivity.class));
+                return true;
             }
         } catch (Throwable t) {
             return false;

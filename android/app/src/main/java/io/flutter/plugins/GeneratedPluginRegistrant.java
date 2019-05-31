@@ -4,6 +4,7 @@ import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugins.deviceinfo.DeviceInfoPlugin;
 import com.taobao.idlefish.flutterboost.FlutterBoostPlugin;
 import io.flutter.plugins.packageinfo.PackageInfoPlugin;
+import io.flutter.plugins.urllauncher.UrlLauncherPlugin;
 import fleamarket.taobao.com.xservicekit.XserviceKitPlugin;
 
 /**
@@ -17,6 +18,7 @@ public final class GeneratedPluginRegistrant {
     DeviceInfoPlugin.registerWith(registry.registrarFor("io.flutter.plugins.deviceinfo.DeviceInfoPlugin"));
     FlutterBoostPlugin.registerWith(registry.registrarFor("com.taobao.idlefish.flutterboost.FlutterBoostPlugin"));
     PackageInfoPlugin.registerWith(registry.registrarFor("io.flutter.plugins.packageinfo.PackageInfoPlugin"));
+    UrlLauncherPlugin.registerWith(registry.registrarFor("io.flutter.plugins.urllauncher.UrlLauncherPlugin"));
     XserviceKitPlugin.registerWith(registry.registrarFor("fleamarket.taobao.com.xservicekit.XserviceKitPlugin"));
   }
 
